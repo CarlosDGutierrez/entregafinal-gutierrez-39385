@@ -1,0 +1,29 @@
+.contacto-cuerpo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    .h1-h2-contacto{
+        font-family: Helvetica;
+        color: #F7941E;
+        font-size: 43px;
+        padding: 80px;
+        padding-left: 100px;
+        padding-top: 312px;
+        padding-bottom: 312px;
+        width: 850px;
+    }
+    h2{
+        padding-left: 200px;
+    }
+
+    .formulario{
+        display: grid;
+        grid-template-columns: auto;
+        font-family: Helvetica;
+        color: gray;
+        padding: 120px;
+        padding-left: 100px;
+        padding-top: 360px;               
+        
+    }
+}

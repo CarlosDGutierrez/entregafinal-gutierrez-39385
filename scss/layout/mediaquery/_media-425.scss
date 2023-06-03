@@ -1,0 +1,98 @@
+@media(max-width:425px){
+    
+    header{
+        nav{
+            flex-direction: column;
+            align-items: center;
+            width: 425px;
+            ul{
+                flex-direction: column;
+                align-items: center;  
+                gap: 20px;
+                margin-top: 20px;  
+                margin-bottom: 20px; 
+                                   
+            }        
+        }
+    }
+
+    .frase{
+        flex-direction: column;
+        align-items: center;  
+        h2{
+            flex-direction: column;
+            align-items: center;  
+        }
+    }
+    
+        
+    .row1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);  
+         
+        .voltex{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .toogi{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .ameba{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .asimetrico{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .luna{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .hops{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .imobi{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .elegance{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }
+    
+        .imod{
+            display: grid;
+            margin-left: 1px;
+            width: 425px;
+            margin-left: -20%;
+        }        
+    }
+
+}

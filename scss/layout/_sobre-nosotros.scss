@@ -1,0 +1,27 @@
+main{
+    .sobre-nosotros-contenedor{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        h1{
+            font-family: Helvetica;
+            color: #F7941E;
+            font-size: 170px;
+            width: 50%;
+            padding-top: 290px;
+            padding-bottom: 290px;
+            padding-left: 170px;
+            padding-right: 30px;
+            position: relative;
+        }
+        p{
+            font-family: Helvetica;
+            color: gray;
+            font-size: 20px;
+            width: 850px;
+            padding-top: 50px;
+            padding-right: 65px;
+        }
+    }
+
+}

@@ -1,0 +1,88 @@
+.diseno-interior-ppal{
+    h1{
+        font-family: Helvetica;
+        color: #F7941E;
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+    .diseno-interior{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img{
+            width: 900px;
+            padding-left: 20px;
+        }
+        p{
+            font-family: Helvetica;
+            color: gray;
+            font-size: 25px;
+            padding-right: 300px;
+            padding-top: 200px;
+        }
+
+    }
+
+}
+
+.diseno-producto-ppal{
+    h1{
+        font-family: Helvetica;
+        color: #F7941E;
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+    .diseno-producto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img{
+            width: 900px;
+            padding-left: 20px;
+        }
+        p{
+            font-family: Helvetica;
+            color: gray;
+            font-size: 25px;
+            padding-right: 300px;
+            padding-top: 200px;
+        }
+    }
+
+}
+
+.servicio-render-ppal{
+    h1{
+        font-family: Helvetica;
+        color: #F7941E;
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+    .render{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img{
+            width: 900px;
+            padding-left: 20px;
+            padding-bottom: 70px;
+        }
+        p{
+            font-family: Helvetica;
+            color: gray;
+            font-size: 25px;
+            padding-right: 300px;
+            padding-top: 200px;
+        }
+    }
+
+}

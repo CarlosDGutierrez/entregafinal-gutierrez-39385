@@ -1,0 +1,28 @@
+.toogi-titulo{
+    h1{
+        @include flex(column,center);
+        font-family: Helvetica;
+        font-size: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color:  #F7941E;        
+    }
+    h2{
+        @include flex(column,center);
+        font-family: Helvetica;
+        font-size: 20px;
+        padding-bottom: 50px;
+        color: gray;
+    }
+
+    .toogi-fotos{
+        @include flex(column,none);
+        width: 100%;
+        padding: 10px;
+        img{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+    }
+}

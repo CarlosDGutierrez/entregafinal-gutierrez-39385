@@ -1,0 +1,63 @@
+@media(max-width:1440px){
+    
+    header{
+        nav{
+            ul{
+                li{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between; 
+                    width: 200px;
+                    margin-left: 50px;
+                }
+                   
+            }        
+        }
+    }
+    
+        
+    .row1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);   
+        
+        .voltex:hover{
+            transform: scale(0.9);
+        }
+    
+        .toogi:hover{
+            transform: scale(0.9);
+        }
+    
+        .ameba:hover{
+            transform: scale(0.9);
+        }
+    
+        .asimetrico:hover{
+            transform: scale(0.9);
+        }
+    
+        .luna:hover{
+            transform: scale(0.9);
+        }
+    
+        .hops:hover{
+            transform: scale(0.9);
+        }
+    
+        .imobi:hover{
+            transform: scale(0.9);
+        }
+    
+        .elegance:hover{
+            transform: scale(0.9);
+        }
+    
+        .imod:hover{
+            transform: scale(0.9);
+        }
+        
+    }
+
+}
+
