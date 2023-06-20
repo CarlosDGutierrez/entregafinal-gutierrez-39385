@@ -95,4 +95,54 @@
         }        
     }
 
+    .contacto-cuerpo{
+        display: flex;
+        flex-direction: column;
+    
+        .h1-h2-contacto{
+            font-family: Helvetica;
+            color: #F7941E;
+            padding: 80px;
+            padding-left: 30px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            width: 100%;
+        }
+        h1{
+            font-size: 50px;
+            padding-left: 30px;
+            width: 100%;
+        }
+        h2{
+            font-size: 50px;
+            padding-left: 20px;
+        }
+    
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            font-family: Helvetica;
+            color: rgb(128, 128, 128);
+            padding-left: 10px;
+            padding-top: 10px; 
+            width: 80px;
+    
+            form{
+                label{
+                    input{
+                        padding: 10px;
+                        font-family: Helvetica;
+                        font-size: 20px;
+                        width: 350px;
+                        
+                    }
+                }
+                
+                
+            }
+                               
+            
+        }
+    }
+
 }

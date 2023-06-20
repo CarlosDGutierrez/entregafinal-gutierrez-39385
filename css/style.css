@@ -29,7 +29,7 @@ header nav ul li a {
   color: white;
 }
 header nav ul li:hover {
-  transform: scale(1.1);
+  transform: scale(0.95);
 }
 
 .frase h1 {
@@ -224,16 +224,23 @@ main .sobre-nosotros-contenedor p {
   width: 850px;
 }
 .contacto-cuerpo h2 {
-  padding-left: 200px;
+  padding-left: 180px;
 }
 .contacto-cuerpo .formulario {
   display: grid;
   grid-template-columns: auto;
   font-family: Helvetica;
-  color: gray;
+  color: rgb(128, 128, 128);
   padding: 120px;
-  padding-left: 100px;
-  padding-top: 360px;
+  padding-left: 200px;
+  padding-top: 280px;
+  width: 100%;
+}
+.contacto-cuerpo .formulario form label input {
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 25px;
+  width: 400px;
 }
 
 @media (max-width: 1440px) {
@@ -276,6 +283,128 @@ main .sobre-nosotros-contenedor p {
   .row1 .imod:hover {
     transform: scale(0.9);
   }
+  .diseno-interior-ppal h1 {
+    text-align: center;
+    font-family: Helvetica;
+    color: #F7941E;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+  }
+  .diseno-interior-ppal .diseno-interior {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .diseno-interior-ppal .diseno-interior img {
+    align-items: center;
+    width: 100%;
+    padding-right: 30px;
+  }
+  .diseno-interior-ppal .diseno-interior p {
+    text-align: center;
+    font-family: Helvetica;
+    color: gray;
+    font-size: 25px;
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+  .diseno-producto-ppal h1 {
+    text-align: center;
+    font-family: Helvetica;
+    color: #F7941E;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 25px;
+  }
+  .diseno-producto-ppal .diseno-producto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .diseno-producto-ppal .diseno-producto img {
+    align-items: center;
+    width: 100%;
+    padding-right: 30px;
+  }
+  .diseno-producto-ppal .diseno-producto p {
+    text-align: center;
+    font-family: Helvetica;
+    color: gray;
+    font-size: 25px;
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+  .servicio-render-ppal h1 {
+    text-align: center;
+    font-family: Helvetica;
+    color: #F7941E;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 25px;
+  }
+  .servicio-render-ppal .render {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .servicio-render-ppal .render img {
+    align-items: center;
+    width: 100%;
+    padding-right: 30px;
+  }
+  .servicio-render-ppal .render p {
+    text-align: center;
+    font-family: Helvetica;
+    color: gray;
+    font-size: 25px;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 80px;
+  }
+  .contacto-cuerpo {
+    display: flex;
+    flex-direction: row;
+  }
+  .contacto-cuerpo .h1-h2-contacto {
+    font-family: Helvetica;
+    color: #F7941E;
+    font-size: 43px;
+    padding: 80px;
+    padding-left: 100px;
+    padding-top: 280px;
+    padding-bottom: 312px;
+    width: 850px;
+  }
+  .contacto-cuerpo h1 {
+    padding-left: 20px;
+    width: 800px;
+  }
+  .contacto-cuerpo h2 {
+    padding-left: 180px;
+  }
+  .contacto-cuerpo .formulario {
+    display: flex;
+    flex-direction: row;
+    font-family: Helvetica;
+    color: rgb(128, 128, 128);
+    padding: 120px;
+    padding-left: 80px;
+    padding-top: 280px;
+    width: 100%;
+  }
+  .contacto-cuerpo .formulario form label input {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 25px;
+    width: 400px;
+  }
 }
 @media (max-width: 1024px) {
   header nav {
@@ -295,6 +424,42 @@ main .sobre-nosotros-contenedor p {
     grid-template-columns: repeat(2, 1fr);
     padding-left: 32px;
     padding-right: 32px;
+  }
+  .contacto-cuerpo {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto-cuerpo .h1-h2-contacto {
+    font-family: Helvetica;
+    color: #F7941E;
+    font-size: 43px;
+    padding: 80px;
+    padding-left: 160px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    width: 850px;
+  }
+  .contacto-cuerpo h1 {
+    padding-left: 20px;
+    width: 800px;
+  }
+  .contacto-cuerpo h2 {
+    padding-left: 180px;
+  }
+  .contacto-cuerpo .formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    color: rgb(128, 128, 128);
+    padding-left: 320px;
+    padding-top: 40px;
+    width: 80px;
+  }
+  .contacto-cuerpo .formulario form label input {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 25px;
+    width: 400px;
   }
 }
 @media (max-width: 768px) {
@@ -359,6 +524,43 @@ main .sobre-nosotros-contenedor p {
   .row1 .imod {
     display: grid;
     margin-left: 145px;
+  }
+  .contacto-cuerpo {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto-cuerpo .h1-h2-contacto {
+    font-family: Helvetica;
+    color: #F7941E;
+    padding: 80px;
+    padding-left: 30px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .contacto-cuerpo h1 {
+    font-size: 45px;
+    padding-left: 120px;
+    width: 100%;
+  }
+  .contacto-cuerpo h2 {
+    font-size: 45px;
+    padding-left: 220px;
+  }
+  .contacto-cuerpo .formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    color: rgb(128, 128, 128);
+    padding-left: 190px;
+    padding-top: 40px;
+    width: 80px;
+  }
+  .contacto-cuerpo .formulario form label input {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 25px;
+    width: 400px;
   }
 }
 @media (max-width: 425px) {
@@ -441,6 +643,43 @@ main .sobre-nosotros-contenedor p {
     width: 425px;
     margin-left: -20%;
   }
+  .contacto-cuerpo {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto-cuerpo .h1-h2-contacto {
+    font-family: Helvetica;
+    color: #F7941E;
+    padding: 80px;
+    padding-left: 30px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .contacto-cuerpo h1 {
+    font-size: 50px;
+    padding-left: 60px;
+    width: 100%;
+  }
+  .contacto-cuerpo h2 {
+    font-size: 50px;
+    padding-left: 50px;
+  }
+  .contacto-cuerpo .formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    color: rgb(128, 128, 128);
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 80px;
+  }
+  .contacto-cuerpo .formulario form label input {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 25px;
+    width: 400px;
+  }
 }
 @media (max-width: 375px) {
   header nav {
@@ -521,6 +760,43 @@ main .sobre-nosotros-contenedor p {
     margin-left: 1px;
     width: 375px;
     margin-left: -33%;
+  }
+  .contacto-cuerpo {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto-cuerpo .h1-h2-contacto {
+    font-family: Helvetica;
+    color: #F7941E;
+    padding: 80px;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .contacto-cuerpo h1 {
+    font-size: 50px;
+    padding-left: 30px;
+    width: 100%;
+  }
+  .contacto-cuerpo h2 {
+    font-size: 50px;
+    padding-left: 20px;
+  }
+  .contacto-cuerpo .formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    color: rgb(128, 128, 128);
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 80px;
+  }
+  .contacto-cuerpo .formulario form label input {
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 20px;
+    width: 350px;
   }
 }
 .voltex-titulo h1 {
